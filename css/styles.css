@@ -1,0 +1,29 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+    .svg-scale {
+        width: calc(100% + 60px);
+        height: 100%;
+        margin-left: -30px;
+    }
+
+    #facebook:hover {
+    color: #3B5998;
+    }
+    #twitter:hover {
+        color: #55ACEE;
+    }
+    #linkedin:hover {
+        color: #007bb5;
+    }
+    #instagram:hover {
+        color: #ea4c89;
+    }
+    #github:hover {
+        color: #9e42d6;
+    }
+}
